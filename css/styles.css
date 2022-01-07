@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+/* Screens */
+@import "screens/login.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* google font에서 추가 폰트 활용 가능 */
+/* 폰트를 너무 많이 embed하면 웹사이트가 느려질 수 있으므로 필요한 것만 적용 */
