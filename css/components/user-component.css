@@ -53,3 +53,8 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__subtitle-mark {
+  color: rgba(238, 16, 16, 0.4);
+  margin-left: 5px;
+}

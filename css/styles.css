@@ -8,11 +8,16 @@
 @import "screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   color: #2e363e;
@@ -20,7 +25,7 @@ body {
 }
 
 .main-screen {
-  padding: 0px var(--horizontal-space);
+  padding: 20px var(--horizontal-space);
 }
 /* google font에서 추가 폰트 활용 가능 */
 /* 폰트를 너무 많이 embed하면 웹사이트가 느려질 수 있으므로 필요한 것만 적용 */
